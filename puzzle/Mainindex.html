@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/calibri-light" rel="stylesheet">
+</head>
+<style>
+    #name{
+        position: absolute;
+        top: 173px; 
+        left: 29.5%;
+        transform: translate(-50%, -50%);
+        font-family: "Garamond";
+        font-size: 32px;
+        
+    }
+    
+    #sub{
+        position: absolute;
+        top: 233px;
+        left: 29.5%;
+        transform: translate(-50%, -50%);
+        font-family: 'Centaur';
+        font-size: 26px;
+    }
+    #datet{
+        position: absolute;
+        top: 373.5px;
+        left: 251px;
+        font-family: 'calibri light';
+        color: rgb(67, 64, 64);
+        font-size: 5px;
+    }
+    #ctt{
+        position: absolute;
+        top: 370px;
+        left: 254px;
+        font-family: 'calibri light';
+        color: rgb(173, 172, 172);
+        font-size: 6px;
+    }
+    #top{
+        
+        font-family: "Garamond";
+        font-size: 20px;
+        padding-left: 55px;
+    }
+</style>
+<body>
+     <h1 id="top"> 
+        IMPORTANT NOTE:zoom screen  According to your laptop fit
+     </h1>
+    <img src="./FACK.png" alt="lable" width="500px">
+   <br>
+    <h2 id="name" >Nithya Ganesh K</h2>
+    <p id="sub">Python</p>
+    <p id="ctt">CT-MKDJJDDJ</p>
+    <H6 id="datet">24 Jan,2024</H6>
+    <input type="text" id="name1" onkeyup="name123()" placeholder="enter your name" >
+   <input type="text"  id="sub1" onkeyup="sub()" placeholder="enter course "><br>
+   <input type="text"  id="datef" onkeyup="date123()" placeholder="29 Feb,2024">
+   <input type="text"  id="ct" onkeyup="ct()" placeholder="Certificate code " >Eg:CT-UJDMENCO
+   <BR></BR><button onclick="alert1()">GET</button>
+   <H5>TAKE SCREENSHOT</H5>
+   <h1>FREE CERTIFICATE GENERATOR BY NITHYA GANESH</h1>
+</body>
+</html>
+<script>
+    var input=document.getElementById("name1")
+    var result=document.getElementById("name")
+    var subf=document.getElementById("sub1")
+    var subt=document.getElementById("sub")
+    var datef=document.getElementById("datef")
+    var datet=document.getElementById("datet")
+    var ctf=document.getElementById("ct")
+    var ctt=document.getElementById("ctt")
+    function name123(){
+        result.textContent=input.value
+    }
+    function sub(){
+        subt.textContent=subf.value
+    }
+    function date123(){
+        datet.textContent=datef.value
+    }
+    function ct(){
+        ctt.textContent=ctf.value
+    }
+    function alert1(){
+        alert("TAKE SCREENSHOT THANK ME LATER")
+    }
+</script>
